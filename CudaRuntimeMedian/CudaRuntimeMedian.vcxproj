@@ -77,11 +77,11 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="..\ImageFiltering_CUDA\MedianFilter\medianFilter.cu" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="medianFilter.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ImageFiltering_CUDA\MedianFilter\main.cpp" />
-    <ClCompile Include="..\ImageFiltering_CUDA\MedianFilter\medianFilter.cpp" />
+    <CudaCompile Include="medianFilter.cu" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -80,11 +80,11 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="..\ImageFiltering_CUDA\SobelEdgeDetectFilter\sobelEdgeDetectionFilter.cu" />
+    <CudaCompile Include="sobelEdgeDetectionFilter.cu" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ImageFiltering_CUDA\SobelEdgeDetectFilter\sobelEdgeDetectionFilter.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="sobelEdgeDetectionFilter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -11,11 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ImageFiltering_CUDA\SharpeningFilter\sharpeningFilter.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="sharpeningFilter.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="..\ImageFiltering_CUDA\SharpeningFilter\sharpeningFilter.cu" />
+    <CudaCompile Include="sharpeningFilter.cu" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F0B85CF6-A823-4ABE-873B-95C96817861D}</ProjectGuid>
