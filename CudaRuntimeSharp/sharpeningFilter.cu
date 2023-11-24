@@ -8,7 +8,7 @@
 #include "cuda_runtime.h"
 #include <device_launch_parameters.h>
 
-#define BLOCK_SIZE      16
+#define BLOCK_SIZE      16 //MAX 1024
 #define FILTER_WIDTH    3       
 #define FILTER_HEIGHT   3       
 
